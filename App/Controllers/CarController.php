@@ -2,19 +2,19 @@
 
 namespace App\Controllers;
 
-use App\Models\ArtistModel;
+use App\Models\CarModel;
 
-class ArtistController
+class CarController
 {
 
     public function index()
     {
-        $artists = ArtistModel::all();
-        dd($artists);
+        $cars = CarModel::all();
+        dd($cars);
     }
 
     /**
-     * Store a artist record into the database
+     * Store a car record into the database
      */
     public function store()
     {
@@ -22,7 +22,7 @@ class ArtistController
     }
 
     /**
-     * Updates a artist record into the database
+     * Updates a car record into the database
      */
     public function update()
     {
@@ -30,7 +30,7 @@ class ArtistController
     }
 
     /**
-     * Archive a artist record into the database
+     * Archive a car record into the database
      */
     public function destroy(int $id)
     {

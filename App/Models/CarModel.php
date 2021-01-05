@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-class ArtistModel extends Model
+class CarModel extends Model
 {
     // Name of the table
-    protected $model = "artist";
+    protected $model = "manufacturers";
 
     // Max number of records when fetching all records from table
     protected $limit;
@@ -30,4 +30,4 @@ class ArtistModel extends Model
 
 }
 
-new ArtistModel;
+new CarModel;

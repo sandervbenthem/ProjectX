@@ -27,11 +27,11 @@ class UserController extends Controller
     public function update()
     {
         $data = [
-            'first_name' => "Bernard",
-            'last_name' => "Bondin",
-            'email' => "bernard@codegorilla.nl",
-            'password' => "q3234234q3213^^!^w23123",
-            'birthday' => "1990-12-31",
+            'first_name' => "",
+            'last_name' => "",
+            'email' => "",
+            'password' => "",
+            'birthday' => "",
             'created' => date("Y-m-d H:i:s"),
         ];
 
